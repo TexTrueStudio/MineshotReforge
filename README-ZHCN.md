@@ -28,7 +28,7 @@ Mineshot Reforge 是 Minecraft（Forge）的一个模组，用于创建高分辨
 
 可以在 Minecraft 按键菜单中更改按键绑定。
 
-您可以手动更改屏幕截图的大小： `<mc-folder>/config/mineshot_reforge-client.toml`. 此文件将在第一次加载此 mod 时创建，默认为 4K (3840x2160)。
+您可以手动更改屏幕截图的大小： `.minecraft/config/mineshot_reforge-client.toml` （如果您开启了版本隔离：`.minecraft/version/<版本名>/config/mineshot_reforge-client.toml`）. 此文件将在第一次加载此 mod 时创建，默认为 4K (3840x2160)。
 
 请注意，创建的屏幕截图会很大（4K 已经是 23.7 MB），因此请谨慎选择您的分辨率。屏幕截图将是 Targa 图像文件，因此将限制为 65535 x 65535 像素。
 
