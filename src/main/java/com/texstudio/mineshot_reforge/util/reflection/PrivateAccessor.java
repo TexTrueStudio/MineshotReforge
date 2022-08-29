@@ -1,4 +1,4 @@
-package nl.pascalroeleven.minecraft.mineshotrevived.util.reflection;
+package com.texstudio.mineshot_reforge.util.reflection;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

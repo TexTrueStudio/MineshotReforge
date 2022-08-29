@@ -1,5 +1,7 @@
-package nl.pascalroeleven.minecraft.mineshotrevived;
+package com.texstudio.mineshot_reforge;
 
+import com.texstudio.mineshot_reforge.client.OrthoViewHandler;
+import com.texstudio.mineshot_reforge.client.ScreenshotHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
@@ -7,13 +9,14 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
-import nl.pascalroeleven.minecraft.mineshotrevived.client.OrthoViewHandler;
-import nl.pascalroeleven.minecraft.mineshotrevived.client.ScreenshotHandler;
-import nl.pascalroeleven.minecraft.mineshotrevived.client.config.MyModConfig;
+import com.texstudio.mineshot_reforge.client.config.MyModConfig;
 
-@Mod("mineshotrevived")
+@Mod(Mineshot.MODID)
 
 public class Mineshot {
+
+	public static final String MODID = "mineshot_reforge";
+
 	public Mineshot() {
 		// Register the clientSetup method for modloading
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientSetup);

@@ -1,4 +1,4 @@
-package nl.pascalroeleven.minecraft.mineshotrevived.client.capture;
+package com.texstudio.mineshot_reforge.client.capture;
 
 import static java.nio.file.StandardOpenOption.CREATE;
 import static java.nio.file.StandardOpenOption.WRITE;

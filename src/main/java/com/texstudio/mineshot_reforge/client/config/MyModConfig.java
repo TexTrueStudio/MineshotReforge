@@ -1,4 +1,4 @@
-package nl.pascalroeleven.minecraft.mineshotrevived.client.config;
+package com.texstudio.mineshot_reforge.client.config;
 
 import org.apache.commons.lang3.tuple.Pair;
 

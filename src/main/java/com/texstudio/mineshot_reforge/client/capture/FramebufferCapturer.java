@@ -1,4 +1,4 @@
-package nl.pascalroeleven.minecraft.mineshotrevived.client.capture;
+package com.texstudio.mineshot_reforge.client.capture;
 
 import static org.lwjgl.opengl.GL11.GL_PACK_ALIGNMENT;
 import static org.lwjgl.opengl.GL11.GL_RGB;

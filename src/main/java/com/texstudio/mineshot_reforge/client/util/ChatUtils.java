@@ -1,4 +1,4 @@
-package nl.pascalroeleven.minecraft.mineshotrevived.client.util;
+package com.texstudio.mineshot_reforge.client.util;
 
 import static net.minecraft.util.text.event.ClickEvent.Action.OPEN_FILE;
 

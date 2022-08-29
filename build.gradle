@@ -4,22 +4,21 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '4.1.+', changing: true
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.+', changing: true
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
-// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '3.0.0-alpha'
-group = 'nl.pascalroeleven.minecraft.mineshotrevived' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'Mineshot Revived'
+version = "mc${minecraft_version}-${mod_version}"
+group = 'com.texstudio.mineshot_reforge'
+archivesBaseName = 'Mineshot Reforge'
 
-sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
 
 minecraft {
-    mappings channel: 'snapshot', version: '20210309-1.16.5'
+    mappings channel: "${channel}", version: "${ver}"
     runs {
         client {
             workingDirectory project.file('run')
@@ -31,7 +30,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                mineshotrevived {
+                mineshotreforge {
                     source sourceSets.main
                 }
             }
@@ -40,21 +39,17 @@ minecraft {
 }
 
 dependencies {
-    // Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed
-    // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
-    // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.16.5-36.1.0'
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 }
 
 jar {
 	manifest {
 		attributes([
-				"Specification-Title"     : "mineshotrevived",
-				"Specification-Version"   : "1.0", // We are version 1 of ourselves
+				"Specification-Title"     : "mineshotreforge",
+				"Specification-Version"   : "1.0",
 				"Implementation-Title"    : project.name,
 				"Implementation-Version"  : "${version}",
-				"Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-				"Signing-Fingerprint"     : project.hasProperty('signSHA1') ? project.findProperty('signSHA1') : "unsigned"
+				"Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
 		])
 	}
 }

@@ -1,14 +1,14 @@
-package nl.pascalroeleven.minecraft.mineshotrevived.client.capture.task;
+package com.texstudio.mineshot_reforge.client.capture.task;
 
 import java.nio.file.Path;
 
+import com.texstudio.mineshot_reforge.client.capture.FramebufferWriter;
+import com.texstudio.mineshot_reforge.util.reflection.PrivateAccessor;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.event.TickEvent.RenderTickEvent;
 
-import nl.pascalroeleven.minecraft.mineshotrevived.client.capture.FramebufferCapturer;
-import nl.pascalroeleven.minecraft.mineshotrevived.client.capture.FramebufferWriter;
-import nl.pascalroeleven.minecraft.mineshotrevived.client.config.MyModConfig;
-import nl.pascalroeleven.minecraft.mineshotrevived.util.reflection.PrivateAccessor;
+import com.texstudio.mineshot_reforge.client.capture.FramebufferCapturer;
+import com.texstudio.mineshot_reforge.client.config.MyModConfig;
 
 public class CaptureTask implements RenderTickTask, PrivateAccessor {
 	private static final Minecraft MC = Minecraft.getInstance();

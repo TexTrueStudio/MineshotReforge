@@ -1,4 +1,4 @@
-package nl.pascalroeleven.minecraft.mineshotrevived.client.capture.task;
+package com.texstudio.mineshot_reforge.client.capture.task;
 
 import net.minecraftforge.event.TickEvent.RenderTickEvent;
 
