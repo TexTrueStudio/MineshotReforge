@@ -27,10 +27,10 @@ import com.texstudio.mineshot_reforge.client.util.ChatUtils;
 public class ScreenshotHandler {
 	private static final Minecraft MC = Minecraft.getInstance();
 	private static final Logger L = LogManager.getLogger();
-	private static final String KEY_CATEGORY = "key.categories.mineshot_reforge";
+	private static final String KEY_CATEGORY = "key.categories.mineshot_reborn";
 	private static final DateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd_HH.mm.ss");
 
-	private final KeyBinding keyCapture = new KeyBinding("key.mineshot_reforge.capture", GLFW_KEY_F9, KEY_CATEGORY);
+	private final KeyBinding keyCapture = new KeyBinding("key.mineshot_reborn.capture", GLFW_KEY_F9, KEY_CATEGORY);
 
 	private Path taskFile;
 	private RenderTickTask task;

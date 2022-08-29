@@ -12,10 +12,9 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import com.texstudio.mineshot_reforge.client.config.MyModConfig;
 
 @Mod(Mineshot.MODID)
-
 public class Mineshot {
 
-	public static final String MODID = "mineshot_reforge";
+	public static final String MODID = "mineshot_reborn";
 
 	public Mineshot() {
 		// Register the clientSetup method for modloading

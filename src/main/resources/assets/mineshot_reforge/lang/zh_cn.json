@@ -1,20 +1,20 @@
 {
-  "key.categories.mineshot_reforge": "Mineshot ：重铸",
+  "key.categories.mineshot_reborn": "Mineshot ：重生",
 
-  "key.mineshot_reforge.capture": "拍摄大屏幕截图",
-  "key.mineshot_reforge.ortho.toggle": "相机模式",
-  "key.mineshot_reforge.ortho.zoom_in": "相机放大",
-  "key.mineshot_reforge.ortho.zoom_out": "相机缩小",
-  "key.mineshot_reforge.ortho.rotate_l": "相机左转",
-  "key.mineshot_reforge.ortho.rotate_r": "相机右转",
-  "key.mineshot_reforge.ortho.rotate_u": "相机向上",
-  "key.mineshot_reforge.ortho.rotate_d": "相机向下",
-  "key.mineshot_reforge.ortho.rotate_t": "相机顶面视图",
-  "key.mineshot_reforge.ortho.rotate_f": "相机前面视图",
-  "key.mineshot_reforge.ortho.rotate_s": "相机侧面视图",
-  "key.mineshot_reforge.ortho.clip": "相机裁剪更改",
-  "key.mineshot_reforge.ortho.mod": "用于替代功能的修饰键",
+  "key.mineshot_reborn.capture": "拍摄大屏幕截图",
+  "key.mineshot_reborn.ortho.toggle": "相机模式",
+  "key.mineshot_reborn.ortho.zoom_in": "相机放大",
+  "key.mineshot_reborn.ortho.zoom_out": "相机缩小",
+  "key.mineshot_reborn.ortho.rotate_l": "相机左转",
+  "key.mineshot_reborn.ortho.rotate_r": "相机右转",
+  "key.mineshot_reborn.ortho.rotate_u": "相机向上",
+  "key.mineshot_reborn.ortho.rotate_d": "相机向下",
+  "key.mineshot_reborn.ortho.rotate_t": "相机顶面视图",
+  "key.mineshot_reborn.ortho.rotate_f": "相机前面视图",
+  "key.mineshot_reborn.ortho.rotate_s": "相机侧面视图",
+  "key.mineshot_reborn.ortho.clip": "相机裁剪更改",
+  "key.mineshot_reborn.ortho.mod": "用于替代功能的修饰键",
 
-  "mineshot_reforge.orthomp": "正交透视在多人游戏中不可用"
+  "mineshot_reborn.orthomp": "正交透视在多人游戏中不可用"
 
 }

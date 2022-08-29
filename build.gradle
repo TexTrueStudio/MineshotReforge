@@ -13,7 +13,7 @@ apply plugin: 'maven-publish'
 
 version = "mc${minecraft_version}-${mod_version}"
 group = 'com.texstudio.mineshot_reforge'
-archivesBaseName = 'Mineshot Reforge'
+archivesBaseName = 'MineshotReborn'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
 

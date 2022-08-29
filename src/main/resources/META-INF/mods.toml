@@ -3,23 +3,23 @@ loaderVersion="[32,)" #mandatory
 license="Unlicense"
 
 [[mods]] #mandatory
-	modId="mineshot_reforge" #mandatory
+	modId="mineshot_reborn" #mandatory
 	version="${file.jarVersion}" #mandatory
-	displayName="Mineshot Reforge" #mandatory
+	displayName="Mineshot Reborn" #mandatory
 	#displayURL="https://github.com/pascallj/mineshot-revived" #optional
 	credits="Barracuda, Pascal Roeleven" #optional
 	authors="TexTrue, TexTrueStudio" #optional
 	description='''
-    A reforge version of Mineshot: "A revamped version of Notch's huge screenshot function".
+    A revamped version of Notch's huge screenshot function.
     '''
 
-		[[dependencies.mineshot_reforge]] #optional
+		[[dependencies.mineshot_reborn]] #optional
 		    modId="forge" #mandatory
 		    mandatory=true #mandatory
 		    versionRange="[32,)" #mandatory
 		    ordering="NONE"
 		    side="BOTH"
-		[[dependencies.mineshot_reforge]]
+		[[dependencies.mineshot_reborn]]
 		    modId="minecraft"
 		    mandatory=true
 		    versionRange="[1.16,1.16.5]"
